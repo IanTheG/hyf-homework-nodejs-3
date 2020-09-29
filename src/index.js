@@ -14,7 +14,6 @@ app.use(bodyParser.json());
 app.get("/", (req, res) => { res.send('Hello World!')});
 
 
-
 // Creates a list of users in an object
 const mockUserData=[
     {name:'Mark'},
